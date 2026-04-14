@@ -1,14 +1,12 @@
 {
-  "name": "My App",
-  "short_name": "MyApp",
-  "start_url": "/",
+  "name": "L135",
+  "short_name": "L135",
+  "start_url": "/ziyardrows/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
   "icons": [
     {
       "src": "icon.png",
-      "sizes": "192x192",
+      "sizes": "512x512",
       "type": "image/png"
     }
   ]
