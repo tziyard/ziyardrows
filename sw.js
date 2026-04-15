@@ -1,5 +1,9 @@
-const CACHE = 'v1';
-const FILES = ['/', '/index.html', '/style.css', '/script.js'];
+const CACHE = 'l135-v1';
+const FILES = [
+  '/ziyardrows/',
+  '/ziyardrows/index.html',
+  '/ziyardrows/icon.png'
+];
 
 self.addEventListener('install', e =>
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(FILES)))
