@@ -1,6 +1,13 @@
-const CACHE = 'l135-v1';
+const CACHE = 'l135-v2';
+const FILES = [
+  '/ziyardrows/',
+  '/ziyardrows/index.html'
+];
 
 self.addEventListener('install', e => {
+  e.waitUntil(
+    caches.open(CACHE).then(c => c.addAll(FILES))
+  );
   self.skipWaiting();
 });
 
